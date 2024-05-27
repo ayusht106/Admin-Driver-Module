@@ -1,0 +1,191 @@
+.driver-table {
+  width: 100%;
+  padding: 20px;
+  /* margin-right: 20px; */
+  background-color: #ffffff;
+  margin-top: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  font-weight: 600;
+    font-size: 26px;
+    line-height: 40px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+
+.search-wrapper{
+  padding: 5px 10px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  margin-right: 10px;
+  position: relative;
+  margin-right: 8px;
+}
+.form-control {
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  /* font-size: 1.25rem; */
+  width: 100%;
+  margin-left: 15px;
+}
+.form-control:focus {
+  outline: none;
+}
+.search-icon {
+  position: absolute;
+  top: 9px;
+  left: 4px;
+  color: solid lightgray;
+}
+.get-app-button{
+  background-color: #ffffff;
+  color: #4a4a4a;
+  border: 1px solid #d5d5d5;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 10px;
+  height: 36px;
+}
+
+.new-driver-button {
+  background-color: #32c896;
+  color: #fff;
+  border: 1px solid #32c896;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  height: 36px;
+}
+
+.get-app-button:hover{
+  background-color: #EDEFF1;
+}
+.new-driver-button:hover {
+  background-color: #2EB487;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border: none;
+}
+
+table th,
+table td {
+  /* color: #4a4a4a !important; */
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    line-height: 16px;
+    border-bottom: 1px solid #efefef !important;
+    padding: 14px 5px 14px 20px !important;
+    text-align: left  ;
+}
+
+/* Additional styling for specific columns */
+table th:nth-child(4),
+table th:nth-child(5),
+table td:nth-child(4),
+table td:nth-child(5) {
+  font-weight: bold;
+}
+
+/* Styles for tabs */
+.tabs {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  background-color: transparent;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, border-bottom 0.3s ease;
+  color: #7c7c7c; 
+  border-bottom: 2px solid transparent; 
+}
+
+.tabs button.active {
+  background-color: transparent;
+  color: #28a745; 
+  border-bottom: 2px solid #28a745; 
+}
+
+/* Styles for daily payment content */
+.daily-payment-content {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.driver-inactive{
+  font-family: sans-serif;
+  color: rgb(223, 222, 222);
+}
+
+.driver-inactive tr{
+  color: rgb(227, 222, 222);
+  
+}
+.driver-active{
+  font-family: sans-serif;
+}
+.Field{
+  margin: 8px;
+}
+
+.clickable-name {
+  cursor: pointer;
+}
+
+.clickable-name:hover {
+  color: #32C896;
+}
+
+.circular-initial {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #32c896;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 25px;
+  font-size: 14px;
+  margin-right: 10px; 
+}
+
+.circular-initiall{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60;
+  height: 60;
+  border-radius: 50%;
+  background-color: #32c896; 
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px; 
+}
+

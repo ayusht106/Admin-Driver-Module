@@ -1,0 +1,227 @@
+nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 103%;
+    z-index: 1000;
+    background-color: white;
+    border: 1px solid #ccc;
+  }
+  
+  nav .title {
+    font-size: 28px;
+    text-decoration: none;
+    margin-left: 10px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  
+  nav ul {
+    display: flex;
+    margin-right: 20px;
+    margin-left: 60px;
+  }
+  
+  nav ul li {
+    list-style: none;
+    display: block;
+    text-decoration: none;
+    padding: 3px;
+    margin-right: 20px;
+    font-size: 18px;
+    color: #7c7c7c;
+  }
+  
+  nav ul li:hover {
+    cursor: pointer;
+    color: #23c58f;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #7c7c7c;
+  }
+  
+  nav ul li a:hover {
+    cursor: pointer;
+    color: #23c58f;
+  }
+  
+  .icon {
+    font-size: 25px;
+  }
+  
+  .iconFace {
+    font-size: 25px;
+    padding-right: 20px;
+  }
+  
+  .helpDropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    overflow-y: auto;
+    z-index: 1000;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    border-radius: 10px;
+    font-size: 15px;
+    right: 116px;
+    top: calc(100% + 10px);
+  }
+  
+  .helpDropdown-content.show {
+    display: block;
+  }
+  
+  .helpDropdown-content a {
+    font-size: 14px;
+    display: block;
+    text-align: left;
+  }
+  
+  .helpDropdown-content a:hover {
+    background-color: #e7f2ff;
+  }
+  
+  .userDropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    overflow-y: auto;
+    z-index: 1000;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    border-radius: 10px;
+    font-size: 15px;
+    right: 65px;
+    top: calc(100% + 10px);
+    height: 280px;
+  }
+  
+  .userDropdown-content.show {
+    display: block;
+  }
+  
+  .userDropdown-content a {
+    font-size: 17px;
+    display: block;
+    text-align: left;
+    padding-top: 5px;
+  }
+  
+  .userDropdown-content a:hover {
+    background-color: #e7f2ff;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 5px;
+    background: none;
+    border: none;
+    color: #888;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .callUsPopup {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .callText {
+    text-align: center;
+    width: 350px;
+    height: 30px;
+  }
+  
+  .feedbackButtons {
+    display: flex;
+    justify-content: right;
+    padding-bottom: 30px;
+    padding-right: 30px;
+  }
+  
+  .close-btn:hover {
+    color: #000;
+  }
+  
+  .dialogFAQ {
+    margin: 20px;
+  }
+  
+  .dialogFAQ:hover {
+    background-color: whitesmoke;
+    cursor: text;
+  }
+  
+  .referralsbox {
+    padding-left: 370px;
+    padding-right: 370px;
+  }
+  
+  .socialMedia {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin: 20px;
+    height: 120px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .socialMediaIcons {
+    padding: 10px;
+    background-color: #ccc;
+    border-radius: 20px;
+  }
+  
+  .dialogReferrals {
+    margin: 20px;
+  }
+  
+  .loggedInUser {
+    display: flex;
+    margin-top: -10px;
+  }
+  
+  .loggedInUser:hover {
+    cursor: text;
+    color: #7c7c7c;
+  }
+  
+  .initChar {
+    background-color: #23c58f;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+    padding-bottom: 9px;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  
+  .initChar:hover {
+    color: white;
+    cursor: text;
+  }
+  
+  @media (max-width: 768px) {
+    .helpDropdown-content {
+      right: auto; /* Remove right positioning */
+      left: 380px; /* Position dropdown to the left */
+      top: calc(100% + 10px); /* Position the dropdown just below the button */
+    }
+  
+    .userDropdown-content {
+      right: auto; /* Remove right positioning */
+      left: 480px; /* Position dropdown to the left */
+      top: calc(100% + 10px); /* Position the dropdown just below the button */
+    }
+  }
